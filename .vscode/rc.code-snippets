@@ -1,0 +1,24 @@
+{
+  "rc": {
+    "prefix": "rc",
+    "body": [
+      "import { classNames } from \"shared/lib/classNames/classNames\";",
+      "import cls from './AppLink.module.scss';",
+      "",
+      "interface AppLinkProps {",
+      "    className?: string",
+      "}",
+      "",
+      "export const AppLink = ({className}: AppLinkProps) => {",
+      "    return (",
+      "        <div className={classNames(cls.AppLink, {}, [])}>",
+      "            ",
+      "        </div>",
+      "    );",
+      "};",
+      "",
+      ""
+    ],
+    "description": "rc"
+  }
+}
